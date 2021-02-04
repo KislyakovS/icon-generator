@@ -1,0 +1,23 @@
+.icon-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+
+    list-style: none;
+}
+
+.icon-list .icon-list__button {
+    margin: 15px;
+}
+
+.icon-list__button svg {
+    display: block;
+    width: 48px;
+    height: 48px;
+    stroke: #2329D6;
+    stroke-width: 1.5;
+    stroke-linecap: square;
+    stroke-linejoin: miter;
+    fill: none;
+}

@@ -1,0 +1,21 @@
+.sidebar {
+    position: relative;
+
+    display: flex;
+    width: 275px;
+    min-height: 100vh;
+
+    border-right: 1px solid #ebecf9;
+    background-color: #ffffff;
+}
+
+.sidebar__wrapper {
+    position: static;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.sidebar__control {
+    padding: 16px 16px 8px;
+}

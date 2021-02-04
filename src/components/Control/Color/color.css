@@ -1,0 +1,25 @@
+.control__item--3 {
+    width: 100%;
+    padding-left: 70px;
+
+    text-align: left;
+}
+
+.control__item--3:focus {
+    border-color: rgba(35,41,215,.1);
+}
+
+.control__item--swatch {
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.control__item__swatch {
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    display: block;
+}  
